@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+<title>Cab</title>
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+input[type=text]{
+  width: 95%;
+} 
+  input[type=date]{
+  width: 95%; 
+} 
+.container{
+    border: 3px solid black;
+    margin-left: 400px;
+    width:500px;
+    height: 500px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    background-color:#eff3f6de;
+}
+</style>
+</head>
+<body>
+
+<center><h1><img src="https://cdn-icons-png.flaticon.com/512/2804/2804533.png" width="75" height="70">Cab Management</h1></center>
+
+    <div class="flex-container">
+        <div><a href="index.html" style="text-decoration: none;color: black;">Home</a></div>
+        <div><a href="booking.html" style="text-decoration: none;color: black;">Booking</a></div>
+        <div><a href="" style="text-decoration: none;color: black;">About</a></div>
+      </div>
+<section>
+   
+    <h1>Complete the details..</h1>
+    
+        <div class="container">
+         <center>
+            <form action="" method="POST">
+                <table cellspacing="10" cellpadding="3">
+             
+                    <tr>
+                        <td><label for="firstName">First name </label></td>
+                        <td><input type="text" style="width:300px;" placeholder="Your first name" id="firstName" name="firstName"/><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastName">Last name </label></td>
+                        <td><input type="text" style="width:300px;" placeholder="Your last name" id="lastName" name="lastName"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender </label></td>
+                        <td>
+                            <input type="radio"  id="male"name="gender"/>Male
+                            <input type="radio"  id="female"name="gender"/>Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address </label></td>
+                        <td><textarea style="width:300px;" placeholder="Your address" id="address" name="address" rows="5" cols="20"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="phone">Contact No </label></td>
+                        <td><input type="number" style="width:300px;" placeholder="Enter your Phone number" id="phone"name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Id </label></td>
+                        <td><input type="email" style="width:300px;" placeholder="Enter your email id " id="phone"name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="yn">Can we contact you?</label></td>
+                        <td>
+                            <input type="radio"  id="yes" name="yn">Yes
+                            <input type="radio"  id="no" name="yn">No
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="comm">Communication Preference</label></td>
+                        <td>
+                            <input type="checkbox"  id="email" name="comm"/>Email
+                            <input type="checkbox"  id="sms" name="comm"/>SMS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox"  id="con" name="con">I agree to the terms and conditions of the website.
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td> <br><button style="margin-bottom: 10px;" type="submit" onclick="javascript:saveData()" id="submit" name="submit" value="Submit" class="btn btn-primary"><a href="" style="color: white; text-decoration: none; font-size: larger;">Submit</a></button></td> 
+                        <td><br> <button style="margin-bottom: 10px;" type="reset" id="reset" name="reset" value="Reset" class="btn btn-primary"><a href="" style="color: white; text-decoration: none; font-size: larger;">Reset</a></button>
+                        </td>
+                    </tr>
+            </table>
+           
+
+
+            <center>
+               
+            </center>
+            <br>        
+        </form>
+    </center>
+          </div>
+          <br>
+          
+
+</section>
+
+<footer>
+ <p>Contact Us</p>
+</footer>
+
+</body>
+</html>
+
