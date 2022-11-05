@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header 
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  */
+
+  article {
+    float:inline-start;
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 400px; 
+
+  }
+  footer {
+    background-color: #777;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    position:fixed;
+    width: 100vw;
+    bottom:0;
+  }
+  
+  h1 {
+    font-family: "Caveat", cursive;
+    font-size: 2.5rem;
+    color: #fd5f00;
+    margin: 0;
+    padding-top: -10px;
+  }
+  
+  .flex-container {
+    display: flex;
+    background-color: #b4d0d7;
+    text-decoration: none;
+    /*background: url("https://www.citypng.com/public/uploads/preview/hd-taxi-cab-pattern-checker-border-png-11663603730gwk4e1nius.png");*/
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #e8f2f0;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+  }
+
+  /*Bootstrap login page*/
+  .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    flex: 50%;
+    justify-content:space-between;
+    
+  }
+  .col1{
+    height: 600px;
+    background-image: url("https://cdn.dribbble.com/users/1352325/screenshots/5059901/car_animation_final.gif");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .col2{
+    background-color: #b4d0d7;
+    height: 600px;
+    
+    /*margin-left: 20px;*/
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  /*booking page starts*/
+  .gradient-custom {
+    /* fallback for old browsers 
+    background: #f093fb;*/
+    
+    /* Chrome 10-25, Safari 5.1-6 
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1)); */
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+    }*/
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+   /*booking page ends*/
